@@ -18,6 +18,15 @@ const product = require('./routes/productRoute');
 const order = require('./routes/orderRoute');
 const payment = require('./routes/paymentRoute');
 
+
+
+
+// i am adding the routes for the whole incoming api calls
+const note = require('./routes/noteRoute');
+app.use('/api', note);
+
+
+
 app.use('/api/user', user);
 app.use('/api/product', product);
 app.use('/api/order', order);
