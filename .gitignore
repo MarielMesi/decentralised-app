@@ -7,6 +7,12 @@
 node_modules/
 dist/
 
+
+#this is not needed either!
+.next
+#and this in case you have something here you do not wanna show!
+.env
+
 # Compiled Java class files
 *.class
 
